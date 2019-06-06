@@ -15,6 +15,6 @@ class Xogador (private var dorsal: Int, private var demarcacion: String, id: Int
     }
 
     override fun toString(): String {
-        return super.toString() + "\nDorsal: $dorsal \nDemarcacion: $demarcacion"
+        return super.toString() + "\nDorsal: $dorsal \nDemarcación: $demarcacion"
     }
 }
