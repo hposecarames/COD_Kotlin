@@ -8,5 +8,8 @@ open class Seleccion (var id: Int, var nome: String, var apelido: String, var id
     open fun viaxar(){
         println("Viaxa a seleccion")
     }
+    override fun toString(): String {
+        return "Id: $id\nNombre: $nome\nApellido: $apelido\nEdad: $idade"
+    }
 }
 
